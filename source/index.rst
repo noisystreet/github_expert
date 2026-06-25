@@ -13,6 +13,7 @@ GitHub 专家指南
    chapter_03_workflow/index
    chapter_04_collaboration/index
    chapter_05_advanced/index
+   chapter_06_automation/index
    appendix/index
 
 索引与搜索

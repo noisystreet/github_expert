@@ -21,6 +21,7 @@
 | `source/chapter_03_workflow/` | 工作流（Pull Request、代码审查、CI/CD） |
 | `source/chapter_04_collaboration/` | 协作开发（团队管理、Fork 与贡献、Issue 跟踪） |
 | `source/chapter_05_advanced/` | 高级技巧（GitHub CLI、GitHub API、安全最佳实践） |
+| `source/chapter_06_automation/` | 自动化工作流（Actions 高级用法、自动部署、自动发布、项目管理） |
 | `source/appendix/` | 附录（参考资源、术语表） |
 | `examples/` | 可运行的 Python 示例代码 |
 | `source/conf.py` | Sphinx 构建配置 |
@@ -86,7 +87,8 @@
 3. **第 3 章：工作流** — Pull Request、代码审查、CI/CD 集成
 4. **第 4 章：协作开发** — 团队管理、Fork 与贡献、Issue 跟踪
 5. **第 5 章：高级技巧** — GitHub CLI、GitHub API、安全最佳实践
-6. **附录** — 参考资源、术语表
+6. **第 6 章：自动化工作流** — Actions 高级用法、自动部署、自动发布、项目管理自动化
+7. **附录** — 参考资源、术语表
 
 ## 构建方法
 
