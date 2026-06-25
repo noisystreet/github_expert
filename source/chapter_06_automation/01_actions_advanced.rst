@@ -1,7 +1,24 @@
 GitHub Actions 高级用法
 =======================
 
-第三章我们介绍了 GitHub Actions 的基础用法——创建工作流、定义任务、运行测试。但 GitHub Actions 的能力不止于此。高级用法能让你构建更高效、更灵活的自动化工作流。
+第三章我们介绍了 GitHub Actions 的基础用法——创建工作流、定义任务、运行测试。但 GitHub Actions 的能力不止于此。
+
+.. note::
+   **自动化成功案例**
+   
+   GitHub Actions 被众多知名项目使用：
+   
+   - **Microsoft VS Code**：VS Code 使用 GitHub Actions 自动构建、测试、发布。每次提交触发测试，每次 Release 自动发布到市场。超过 1000 个工作流文件。
+   
+   - **Google TensorFlow**：TensorFlow 使用 GitHub Actions 进行大规模测试。矩阵构建覆盖多个 Python 版本、多个操作系统，确保兼容性。
+   
+   - **React Native**：React Native 使用 GitHub Actions 自动化发布流程。推送 Tag 后，自动创建 Release，发布到 npm，通知社区。
+   
+   - **开源文档**：很多文档项目（如本教程）使用 GitHub Actions 自动构建 Sphinx 文档，部署到 GitHub Pages 或 ReadTheDocs。
+   
+   这些项目展示了 GitHub Actions 的强大能力：从测试到发布，从构建到部署，全自动完成。
+
+高级用法能让你构建更高效、更灵活的自动化工作流。
 
 矩阵构建：多环境并行测试
 ------------------------

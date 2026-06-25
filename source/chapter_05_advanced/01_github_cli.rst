@@ -5,6 +5,23 @@ GitHub CLI
 
 GitHub CLI（命令行工具）让你在终端中完成 GitHub 操作：创建仓库、提交 PR、查看 Issue、触发工作流……无需离开终端，效率大幅提升。
 
+.. tip::
+   **CLI 的实际应用**
+   
+   很多团队用 GitHub CLI 构建自动化流程：
+   
+   - **发布流程**：某团队使用 ``gh release create`` 自动化发布。推送 Tag 后，CLI 自动创建 Release，上传产物，通知团队。
+   
+   - **Issue 管理**：某公司用 CLI 批量创建 Issue。每周自动创建维护任务 Issue，分配给团队成员。
+   
+   - **CI/CD 增强**：某项目在 GitHub Actions 中使用 CLI。工作流完成后，CLI 自动创建 PR 描述，通知审查者。
+   
+   - **个人效率**：开发者用 CLI 快速查看 PR 状态。``gh pr list`` 一秒查看所有待审查的 PR，无需打开浏览器。
+   
+   CLI 把 GitHub 操作融入日常工作流，让自动化成为常态。
+
+效率大幅提升。
+
 GitHub CLI 的优势
 -----------------
 
