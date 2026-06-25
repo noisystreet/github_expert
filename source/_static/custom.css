@@ -1,0 +1,9 @@
+/* 自定义样式 */
+.wy-nav-content {
+    max-width: 1200px !important;
+}
+
+/* 代码块样式 */
+.highlight {
+    background: #f8f8f8;
+}
